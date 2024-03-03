@@ -19,6 +19,7 @@ from django.urls import path
 from employee import views
 
 urlpatterns = [
+    path('', views.redirect_to_show, name='index'),
     path('admin/', admin.site.urls),
     path('emp', views.emp),  
     path('show',views.show),  
