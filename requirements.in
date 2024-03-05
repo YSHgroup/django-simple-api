@@ -1,0 +1,5 @@
+# requirements.in
+ 
+django
+django-bootstrap-v5
+djangorestframework
