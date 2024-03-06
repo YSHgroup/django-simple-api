@@ -1,5 +1,15 @@
 # django-simple-api
 
+## Collection of the commands for beginer
+```
+pip install django
+django-admin startproject [project name]
+cd [project name]
+python manage.py startapp [app name]
+python manage.py makemigrations
+python manage.py migrate
+```
+
 ## pip-tools
 ```
     pip install pip-tools
@@ -9,7 +19,7 @@
     pip install -r requirements.txt
 ```
 
-# Setting up a project on another machine
+## Setting up a project on another machine
 From here, you shouldn’t install packages using pip install <package-name>
 
 Every time you want to add a package, you need to go through the following steps:
