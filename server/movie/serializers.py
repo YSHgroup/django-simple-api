@@ -4,6 +4,7 @@ from rest_framework import serializers
 from .models import Movie
 
 class MovieSerializer(serializers.ModelSerializer):
+    # Meta class provides additional settings for ModelSerializer.
     class Meta:
-        model = Movie
-        fields = '__all__'
+        model = Movie  # Points to the Movie model for serialization
+        fields = '__all__'  # Includes all fields of the Movie model in the serializer ['title', 'release_date']
