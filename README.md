@@ -19,3 +19,9 @@ Every time you want to add a package, you need to go through the following steps
 - Install the requirements using `pip install -r requirements.txt`
 - Commit both `requirements.txt` and `requirements.in` to your remote repository.
 - By committing `requirements.txt` as well as `requirements.in`, you won’t have to recompile the requirements when setting up your project on another machine.
+
+## Server
+ This project is for using the Django Rest Framework(DRF).
+
+- [movie](https://medium.com/@learncodeguide/creating-a-crud-api-with-django-rest-framework-and-postgresql-3ead7ffb140f)
+ 
